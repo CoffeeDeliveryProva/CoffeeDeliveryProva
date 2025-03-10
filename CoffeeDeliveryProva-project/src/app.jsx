@@ -54,12 +54,10 @@ export function App() {
             <Card
               key={coffee.id}
               image={coffee.image}
-              /* coffees.tags.map((tags)) => (
-
-              ) */
               title={coffee.title}
               description={coffee.description}
               price={coffee.price}
+              tags={coffee.tags}
             />
           ))}
         </div>
